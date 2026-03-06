@@ -7,16 +7,17 @@ Experiments implemented:
 
 1. Spectrum Viewer
    - Demonstrates frequency visualization using QT GUI Frequency Sink.
+   - Demonstrates time visualization using QT GUI Time Sink.
 
-2. BPSK Modulation and Receiver
+2. AM Modulator and Demodulator
+   - Demonstrates amplitude modulation of a baseband signal.
+   - Demodulation of the AM signal to recover the original message signal.
+
+3. BPSK Modulation and Receiver
    - Random bit generation mapped to BPSK symbols.
    - Constellation visualization of received symbols.
    - Basic receiver chain implemented.
    - BER (Bit Error Rate) measurement between transmitted and received bits.
-
-3. AM Modulator and Demodulator
-   - Demonstrates amplitude modulation of a baseband signal.
-   - Demodulation of the AM signal to recover the original message signal.
 
 Tools used:
 - GNU Radio
